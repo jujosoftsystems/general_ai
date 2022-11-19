@@ -1,12 +1,16 @@
 
 /*
    Skeleton for future infrastructure...
+   ------NODEJS API server----------
 */
 
-// API server**************
+// Use Express framework
 const express = require('express');
 const app = express();
 const port = 8080;
+
+// Call AI functions
+const count_fun = require("./count.js");
 
 const games = [{
     id: 1,
@@ -29,6 +33,7 @@ let ability_list = [{
 }
 ];
 
+
 // API routes**************
 app.get('/', (req, res) => {
     res.send('---Welcome to Jujosoft AI API!---');
@@ -41,6 +46,11 @@ app.get('/api/games', (req, res) => {
 app.get('/api/ability_list', (req, res) => {
     res.send(ability_list);
 });
+
+app.get('/api/count_ability', (req, res) => {
+    res.send(count_fun.count());
+});
+
 
 app.listen(port, () => {
     console.log(`App started on ${port}!`);
