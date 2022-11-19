@@ -19,13 +19,13 @@ const games = [{
 ];
 
 // New idea for AI 
-let ability = [{
+let ability_list = [{
     id: 1,
     skill_set: 'count'
 },
 {
     id: 2,
-    skill_set: 'where are you?'
+    skill_set: 'locate me'
 }
 ];
 
@@ -38,8 +38,8 @@ app.get('/api/games', (req, res) => {
     res.send(games);
 });
 
-app.get('/api/ability', (req, res) => {
-    res.send(ability);
+app.get('/api/ability_list', (req, res) => {
+    res.send(ability_list);
 });
 
 app.listen(port, () => {
