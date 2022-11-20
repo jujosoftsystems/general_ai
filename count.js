@@ -3,7 +3,7 @@
    @RobertC 11/19/2022
 */
 
-function count() {
+function count(start_value, end_value) {
 
     let count_result = [{
         id: 1,
