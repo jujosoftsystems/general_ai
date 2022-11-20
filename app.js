@@ -48,6 +48,11 @@ app.get('/api/ability_list', (req, res) => {
 });
 
 app.get('/api/count_ability', (req, res) => {
+    // Need to pass values from api
+    //http://192.168.1.177:8080/api/count_ability?id=23
+    let test_param = req.query.id;
+    console.log(test_param);
+
     res.send(count_fun.count());
 });
 
