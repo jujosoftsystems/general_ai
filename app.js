@@ -34,7 +34,7 @@ let ability_list = [{
 ];
 
 
-// API routes**************
+// API routes
 app.get('/', (req, res) => {
     res.send('---Welcome to Jujosoft AI API!---');
 });
@@ -49,14 +49,14 @@ app.get('/api/ability_list', (req, res) => {
 
 app.get('/api/count_ability', (req, res) => {
     // Need to pass values from api
-    //http://192.168.1.177:8080/api/count_ability?id=23
-    let test_param = req.query.id;
-    console.log(test_param);
+    // Call URL Example: http://192.168.1.177:8080/api/count_ability?startcount=23&endcount=45
+    let startcount = req.query.startcount;
+    let endcount = req.query.endcount;
 
-    res.send(count_fun.count());
+    res.send(count_fun.count( startcount, endcount));
 });
 
-
+// What port is running
 app.listen(port, () => {
     console.log(`App started on ${port}!`);
 });
