@@ -52,7 +52,7 @@ app.get('/api/count_ability', (req, res) => {
     // Call URL Example: http://192.168.1.177:8080/api/count_ability?startcount=23&endcount=45
     let startcount = req.query.startcount;
     let endcount = req.query.endcount;
-
+    
     res.send(count_fun.count( startcount, endcount));
 });
 
