@@ -14,16 +14,25 @@ function count(start_value, end_value) {
     if(start_value == 0 || end_value == 0){
         result = 'Sorry no input values to count from!';   
     }
+    // If parameters are string!
+    if(){
+        
+    }
     // If parameters are not int!
     if(start_value > 0 && end_value > 0){
-        result = 'Ok I can count now give me a minute....'; 
         // Run the count now...  
+        const count_array = [];
+        for(let i = start_value; i <= end_value; i++){
+            count_array.push(i);
+        }
+
+        result = count_array.toString();
     }
 
     // Build array for JSON response
     let count_result = [{
         api_id: api_id,
-        result: result
+        result: result 
     }
     ];
 
