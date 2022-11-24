@@ -12,12 +12,13 @@ function count(start_value, end_value) {
         result = 'Sorry no input values to count from!';   
     }
     if(start_value == 0 || end_value == 0){
-        result = 'Sorry no input values to count from!';   
+        result = 'Sorry input values shuld not start or end with zero!';   
     }
     // If parameters are string!
-    if(){
-        
+    if(typeof start_value == "string" || typeof end_value == "string"){
+        result = 'Sorry input values shuld not be a string!';  
     }
+    // NEED IF start_value IS GRATER THAN end_value!
     // If parameters are not int!
     if(start_value > 0 && end_value > 0){
         // Run the count now...  
