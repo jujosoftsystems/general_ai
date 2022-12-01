@@ -26,10 +26,6 @@ const games = [{
 let ability_list = [{
     id: 1,
     skill_set: 'count'
-},
-{
-    id: 2,
-    skill_set: 'locate me'
 }
 ];
 
