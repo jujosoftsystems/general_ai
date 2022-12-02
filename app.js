@@ -12,21 +12,27 @@ const port = 8080;
 // Call AI functions
 const count_fun = require("./count.js");
 
-const games = [{
-    id: 1,
-    title: 'Warstance'
-},
-{
-    id: 2,
-    title: 'Wordcramp'
-}
+const games = [
+    {
+        id: 1,
+        title: 'Warstance'
+    },
+    {
+        id: 2,
+        title: 'Wordcramp'
+    }
 ];
 
 // New idea for AI 
-let ability_list = [{
-    id: 1,
-    skill_set: 'count'
-}
+let ability_list = [
+    {
+        id: 1,
+        skill_set: 'count'
+    },
+    {
+        id: 2,
+        skill_set: 'random quote'
+    }
 ];
 
 
