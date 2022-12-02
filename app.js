@@ -50,7 +50,6 @@ app.get('/api/ability_list', (req, res) => {
 });
 
 app.get('/api/count_ability', (req, res) => {
-    // Need to pass values from api
     // Call URL Example: http://192.168.1.177:8080/api/count_ability?startcount=23&endcount=45
     let startcount = req.query.startcount;
     let endcount = req.query.endcount;

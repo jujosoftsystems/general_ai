@@ -1,5 +1,5 @@
 /*
-   Testing export of functions to give code structure a more flexible codebase! 
+   For count ability
    @RobertC 11/19/2022  Updated on 11/20/2022
 */
 
