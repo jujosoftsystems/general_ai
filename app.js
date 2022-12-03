@@ -11,6 +11,7 @@ const port = 8080;
 
 // Call AI functions
 const count_fun = require("./count.js");
+const quotes_fun = require("./random_quotes.js");
 
 const games = [
     {
@@ -22,8 +23,7 @@ const games = [
         title: 'Wordcramp'
     }
 ];
-
-// New idea for AI 
+ 
 let ability_list = [
     {
         id: 1,
@@ -55,6 +55,10 @@ app.get('/api/count_ability', (req, res) => {
     let endcount = req.query.endcount;
     
     res.send(count_fun.count( startcount, endcount));
+});
+
+app.get('/api/random_quote', (req, res) => {
+    res.send(quotes_fun.random_quote());
 });
 
 // What port is running
