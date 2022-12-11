@@ -23,6 +23,8 @@ function  random_quote() {
     }
     
     result = rand_quote_num;
+    
+    // Switch for actual quotes will go below this line!
 
     // Build array for JSON response
     let random_quote_result = [{
