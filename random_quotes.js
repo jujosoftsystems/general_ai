@@ -35,6 +35,9 @@ function  random_quote() {
         case 3:
             result = "If life gives you lemons make lemonade.";
             break;
+        case 3:
+            result = "Computers are smarter than humans.";
+            break;
         default:
             result = "Can think of anything right now sorry!";
     } 
