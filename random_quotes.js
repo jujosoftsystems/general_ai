@@ -35,8 +35,11 @@ function  random_quote() {
         case 3:
             result = "If life gives you lemons make lemonade.";
             break;
-        case 3:
+        case 4:
             result = "Computers are smarter than humans.";
+            break;
+        case 5:
+            result = "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. -Nikola Tesla";
             break;
         default:
             result = "Can think of anything right now sorry!";
