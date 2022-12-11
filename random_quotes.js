@@ -22,9 +22,23 @@ function  random_quote() {
         rand_quote_num = rand_quote_num - 2;
     }
     
-    result = rand_quote_num;
+    //result = rand_quote_num;
     
     // Switch for actual quotes will go below this line!
+    switch(rand_quote_num) {
+        case 1:
+            result = "Life is great live it to the max.";
+            break;
+        case 2:
+            result = "Rainy days are for soup.";
+            break;
+        case 3:
+            result = "If life gives you lemons make lemonade.";
+            break;
+        default:
+            result = "Can think of anything right now sorry!";
+    } 
+
 
     // Build array for JSON response
     let random_quote_result = [{
