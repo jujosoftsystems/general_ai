@@ -1,6 +1,5 @@
 
 /*
-   Skeleton for future infrastructure...
    ------NODEJS API server----------
 */
 
