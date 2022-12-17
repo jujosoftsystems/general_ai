@@ -56,7 +56,7 @@ app.get('/api/count_ability', (req, res) => {
     res.send(count_fun.count( startcount, endcount));
 });
 
-app.get('/api/random_quote', (req, res) => {
+app.get('/api/random_quote_ability', (req, res) => {
     res.send(quotes_fun.random_quote());
 });
 
