@@ -41,6 +41,15 @@ function  random_quote() {
         case 5:
             result = "If you want to find the secrets of the universe, think in terms of energy, frequency and vibration. -Nikola Tesla";
             break;
+        case 6:
+            result = "Life is like riding a bicycle. To keep your balance, you must keep moving. -Albert Einstein";
+            break;
+        case 7:
+            result = "Do I not destroy my enemies when I make them my friends? -Abraham Lincoln";
+            break;
+        case 8:
+            result = "It is possible for ordinary people to choose to be extraordinary. -Elon Musk";
+            break;
         default:
             result = "Can think of anything right now sorry!";
     } 
