@@ -25,7 +25,7 @@ function  random_quote() {
     //result = rand_quote_num;
     
     // Switch for actual quotes will go below this line!
-    switch(rand_quote_num) {
+    switch(rand_quote_num){
         case 1:
             result = "Life is great live it to the max.";
             break;
@@ -49,6 +49,9 @@ function  random_quote() {
             break;
         case 8:
             result = "It is possible for ordinary people to choose to be extraordinary. -Elon Musk";
+            break;
+        case 9:
+            result = "If you don't like something, change it. If you can't change it, change your attitude. -Maya Angelou";
             break;
         default:
             result = "Can think of anything right now sorry!";
