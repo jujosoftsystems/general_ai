@@ -53,6 +53,9 @@ function  random_quote() {
         case 9:
             result = "If you don't like something, change it. If you can't change it, change your attitude. -Maya Angelou";
             break;
+        case 10:
+            result = "Everyone has the power for greatness, not for fame but greatness, because greatness is determined by service. -Martin Luther King, Jr.";
+            break;
         default:
             result = "Can think of anything right now sorry!";
     } 
