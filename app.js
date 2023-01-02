@@ -34,7 +34,6 @@ let ability_list = [
     }
 ];
 
-
 // API routes
 app.get('/', (req, res) => {
     res.send('---Welcome to Jujosoft AI API!---');
