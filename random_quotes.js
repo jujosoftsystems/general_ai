@@ -56,6 +56,9 @@ function  random_quote() {
         case 10:
             result = "Everyone has the power for greatness, not for fame but greatness, because greatness is determined by service. -Martin Luther King, Jr.";
             break;
+         case 11:
+            result = "I am not afraid of storms, for I am learning how to sail my ship. - Louisa May Alcott";
+            break;
         default:
             result = "Can think of anything right now sorry!";
     } 
