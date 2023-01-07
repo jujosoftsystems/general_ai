@@ -8,7 +8,7 @@ function  random_quote() {
     let result = '';
 
     // Generate random seed
-    let rand_quote_num = Math.floor(Math.random() * 20);
+    let rand_quote_num = Math.floor(Math.random() * 15);
     // Spice up random seed
     if(rand_quote_num > 0 && rand_quote_num < 5){
         rand_quote_num = rand_quote_num + 1;
